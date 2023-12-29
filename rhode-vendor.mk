@@ -6,6 +6,30 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/rhode
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/com.motorola.camera3.content.ai.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.camera3.content.ai.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/com.motorola.camera3.lens.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.camera3.lens.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/com.motorola.camera3.rhode.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.camera3.rhode.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.camera3.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/feature-com.motorola.screenshoteditor.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/feature-com.motorola.screenshoteditor.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/privapp-permissions-com.motorola.camera3.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.motorola.camera3.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/privapp-permissions-com.motorola.screenshoteditor.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.motorola.screenshoteditor.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/sysconfig/hiddenapi-whitelist-com.motorola.screenshoteditor.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.screenshoteditor.xml \
+    vendor/motorola/rhode/proprietary/system/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.frameworks.core.addon.xml \
+    vendor/motorola/rhode/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/rhode/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/com.motorola.camera.desktop.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.camera.desktop.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/com.motorola.imager.V5.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.imager.V5.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/com.motorola.imager.access_V5.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.imager.access_V5.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/com.motorola.imagertuning.v5.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.imagertuning.v5.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/com.motorola.imagertuning5.rhode.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.imagertuning5.rhode.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/com.motorola.libimgTuner.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.libimgTuner.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/privapp-permissions-com.motorola.imagertuning_V5.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.motorola.imagertuning_V5.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/permissions/privapp-permissions-com.motorola.motcameradesktop.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.motorola.motcameradesktop.xml \
+    vendor/motorola/rhode/proprietary/system_ext/etc/public.libraries-motocameradesktop.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-motocameradesktop.txt \
+    vendor/motorola/rhode/proprietary/system_ext/etc/public.libraries-motoimagetuner.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-motoimagetuner.txt \
+    vendor/motorola/rhode/proprietary/system_ext/etc/sysconfig/hiddenapi-whitelist-com.motorola.motcameradesktop.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.motcameradesktop.xml \
     vendor/motorola/rhode/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/rhode/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
     vendor/motorola/rhode/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
@@ -27,6 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhode/proprietary/vendor/etc/init/init.ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ets.rc \
     vendor/motorola/rhode/proprietary/vendor/etc/init/init.nfc.sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.sec.rc \
     vendor/motorola/rhode/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
+    vendor/motorola/rhode/proprietary/vendor/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc \
     vendor/motorola/rhode/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/motorola/rhode/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_655.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_655.xml \
     vendor/motorola/rhode/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_csot_vt_1080p_dsc_655.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_csot_vt_1080p_dsc_655.xml \
@@ -122,7 +147,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhode/proprietary/vendor/usr/keylayout/uinput-focal.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-focal.kl
 
 PRODUCT_PACKAGES += \
+    motorola.hardware.camera.imgtuner@1.0-impl \
     libthermalclient \
+    motorola.hardware.camera.imgtuner@1.0 \
     com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom \
     com.mot.eeprom.mot_gt24p64e_ov16a1q_eeprom \
     com.mot.eeprom.mot_rhode_gc02m1_otp \
@@ -242,8 +269,22 @@ PRODUCT_PACKAGES += \
     libvidhance_stabilizer \
     vendor.egistec.hardware.fingerprint@4.0 \
     vendor.focaltech.fingerprint@1.0 \
+    motorola.hardware.camera.imgtuner@2.0 \
+    libimgTuner_jni.motoimagetuner \
+    MotoSignature2App \
+    MotoSignatureApp \
+    MotCamera3AI \
+    ImagerTuning-V5 \
+    MotCamera4 \
+    com.motorola.frameworks.core.addon \
+    com.motorola.motosignature \
+    moto-core_services \
+    com.motorola.hardware.camera.desktop \
+    com.motorola.imager.V5 \
+    com.motorola.libimgTuner \
     android.hardware.biometrics.fingerprint@2.1-focalservice \
     android.hardware.biometrics.fingerprint@2.1-service-ets \
+    motorola.hardware.camera.imgtuner@1.0-service \
     thermal-engine
 PRODUCT_COPY_FILES += \
     vendor/motorola/rhode/proprietary/product/etc/CarrierSettings/carrier_list.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/carrier_list.pb \
